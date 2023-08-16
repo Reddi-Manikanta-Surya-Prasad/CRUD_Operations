@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #333;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+button.edit,
+button.delete {
+    padding: 5px 10px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button.edit:hover,
+button.delete:hover {
+    background-color: #2980b9;
+}
+
+/* Additional styling for edit, update, and cancel buttons */
+button.update,
+button.cancel {
+    padding: 5px 10px;
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-right: 5px;
+}
+
+button.update:hover,
+button.cancel:hover {
+    background-color: #06f85e;
+}
+
+/* Change the delete button color to red */
+button.delete {
+    background-color: #f91e05;
+}
+
+button.delete:hover {
+    background-color: #c05246;
+}
+
+/* Change the cancel button color to orange */
+button.cancel {
+    background-color: #e67e22;
+}
+
+button.cancel:hover {
+    background-color: #fb6705;
+}
+
+/* Change the edit button color to yellow */
+button.edit {
+    background-color: #3012f3;
+}
+
+button.edit:hover {
+    background-color: #4b3f97;
+}

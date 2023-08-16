@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Real-Time CRUD Example</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <h1>User Management</h1>
+    <form id="userForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <button type="submit">Create User</button>
+        <!-- Edit and Update buttons -->
+        <button type="button" class="edit">Edit</button>
+        <button type="button" class="update">Update</button>
+        <button type="button" class="cancel">Cancel</button>
+        <!-- Delete button -->
+        <button type="button" class="delete">Delete</button>
+    </form>
+    <ul id="userList"></ul>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
